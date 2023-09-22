@@ -1,0 +1,112 @@
+html{
+    background-color: #5E6572;
+}
+
+#identitas{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    padding: 2px;
+    text-align: center;
+}
+
+p, h1{
+    color: #1C2321;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#tools{
+    background-color: #A9B4C2;
+    padding: 5px 10px 55px 10px;
+    border-radius:20px ;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2{
+    color: #1C2321;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#Fibonacci{
+    background-color: #5E6572;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+#Volume{
+    background-color: #5E6572;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+select{
+    background-color: #A9B4C2;
+    border-radius:10px ;
+    padding-right: 40%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+button {
+    background-color: #A9B4C2; /* Green */
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding:10px 15px 10px 15px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+label{
+    color: #1C2321;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:white;
+    color: black;
+}
+
+button:focus{
+    outline: none;
+}
+
+input {
+    width: 100%;
+    align-items: center;
+    background-color: #A9B4C2;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
